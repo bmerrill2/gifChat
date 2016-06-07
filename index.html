@@ -12,16 +12,18 @@
 
 <body ng-controller="gifCtrl">
 
-  <div>
+  <div class="container">
     <form>
-      <input class="form-control text-box" type="text" ng-model="searchTerm" placeholder="Say it with a Gif">
+      <input id="whiteText" class="search-input" type="text" ng-model="searchTerm" placeholder="Say it with a Gif">
       <button ng-click="getGif()">Click Me</button>
     </form>
-  </div>
-    <img class="gif" ng-repeat="imgSrc in gifs" ng-src="{{imgSrc}}" />
-    </p>
-  </div>
 
+    <div class='imageBox'>
+      <img class="gif" ng-repeat="imgSrc in gifs" ng-src="{{imgSrc}}" />
+      <div class='searchedTerm'>{{searchTerm}}</div>
+
+    </div>
+  </div>
 
 
 

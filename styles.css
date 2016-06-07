@@ -1,0 +1,23 @@
+body {
+  background-color: lightgrey;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.container {
+  
+}
+
+.text-box{
+  background-color: darkblue;
+}
+
+#whiteText {
+  color: white;
+}
+ 
+.imageBox {
+  background-color: gray;
+  padding: 20px;
+}
+  
